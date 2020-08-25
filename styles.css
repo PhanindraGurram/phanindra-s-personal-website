@@ -1,6 +1,85 @@
-body{
-background-color:#F0FFFF;
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
 }
-h1, h3{
-color: #87CEFA;
+.top-container{
+    background-color: #F0FFFF;
+    padding: 110px 0 0 0;
+    position: relative;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 350px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+.mountain-img{
+    padding: 50px auto 0 auto;
+    padding-bottom: 0;
+    width: 100%;
+}
+.site-name{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 20px 0 auto;
+}
+.red{
+    color: crimson;
+    text-decoration: none;
+}
+.site-intro{
+    font-size: 20px;
+    margin: 5px auto 20px auto;
+}
+.intro{
+    padding-top: 40px;
+}
+.middle-container{
+    margin: 0;
+}
+hr{
+    border-top: dotted gray 6px;
+    width: 4%;
+}
+.intro-p2{
+    margin: 20px auto;
+}
+.hobbies{
+    margin: 20px 20px;
+    text-decoration: none;
+    color: green;
+}
+.hobbies2{
+    padding: 0  0 20px 0;
+}
+.bottom-container{
+    padding-top: 30px;
+    margin-top: 20px;
+    background-color: #66bfbf;
+}
+.copyright{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 20px auto 0 auto;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.copyright:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.social{
+    margin: 0px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.social:hover{
+    color: crimson;
 }
