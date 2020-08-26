@@ -43,9 +43,12 @@ body {
 .middle-container{
     margin: 0;
 }
-hr{
+.hrline{
     border-top: dotted gray 6px;
     width: 4%;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
 }
 .intro-p2{
     margin: 20px auto;
