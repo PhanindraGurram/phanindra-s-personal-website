@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo&family=Dancing+Script&family=David+Libre&family=Lobster&family=Montserrat&family=Peddana&family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Notepad.css">
+        <title>Letter Count</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="col">
+                <h1>Type Here :</h1>
+                <div class="font">
+                    <label>Font :</label>
+                    <select class="fontSelector" name="fontSelector">
+                        <option value="select" select style="display:none;">Select Font</option>
+                        <option value="Oswald">Oswald</option>
+                        <option value="Roboto">Roboto</option>
+                        <option value="Montserrat">Montserrat</option>
+                        <option value="Ubuntu">Ubuntu</option>
+                        <option value="David Libre">David Libre</option>
+                        <option value="Peddana">Peddana</option>
+                        <option value="Lobster">Lobster</option>
+                        <option value="Dancing Script">Dancing Script</option>
+                        <option value="Cario">Cario</option>
+                        <option value="Bebas Neue">Bebas Neue</option>
+                    </select>
+                </div>
+                <textarea name="para" spellcheck="false"></textarea><br>
+                <label id="name" for="para">count :</label>
+                <label id="count" for="para"></label>
+            </div>
+        </div>
+    <script type="text/javascript" src="Notepad.js">
+    </script>
+    </body>
+</html>
